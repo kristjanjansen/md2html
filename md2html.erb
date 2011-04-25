@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css" media="all">
+      
+body {
+ font: 20px/150% sans-serif;
+ margin: 50px;
+}
+.container {
+ width: 800px;
+}
+h1 {
+  font: bold 45pt/42pt sans-serif;
+  letter-spacing: -1pt;
+  color: #333;
+}
+h1 + p {
+  page-break-after:always;
+}
+h2, h3, h4, h5 {
+  margin-top: 1em;
+}
+h5 {
+  font-size: 18px;
+}
+a, a:link, a:active, a:hover, a:visited {
+  color: black;
+}
+blockquote {
+  font-size: 20pt;
+  line-height: 28pt;
+  color: gray;
+}
+pre {
+  padding: 15px;
+  background: #ddd !important;
+  width: 970px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <%= html %>
+    </div>
+  </body>
+</html>
