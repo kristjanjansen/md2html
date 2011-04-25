@@ -1,6 +1,6 @@
 # Markdown to HTML converter
 
-Kristjan Jansen
+By Kristjan Jansen
 http://kika.trip.ee
 
 ## About
@@ -9,8 +9,8 @@ md2html utility converts [Markdown](http://daringfireball.net/projects/markdown/
 
 * Print-optimzed stylesheet with separate title page
 * URL autolinking
-* Github-style line breaks
-* Extra typograpy conversions such as -- 
+* Github-style linebreaks
+* Extra typographic conversions such as -- 
 * Easy image linking using ```img:filename ``` tag, just place your images to ```images/``` folder and they will be picked from there
 
 ## Requirements
