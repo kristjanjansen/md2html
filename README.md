@@ -7,7 +7,7 @@ http://kika.trip.ee
 
 md2html utility converts [Markdown](http://daringfireball.net/projects/markdown/syntax) files to HTML with some additional niceties:
 
-* Print-optimzed stylesheet with separate title page
+* Print-optimized CSS stylesheet with separate title page
 * URL autolinking
 * Github-style linebreaks
 * Extra typographic conversions such as -- 
