@@ -15,7 +15,7 @@ if ARGV.length == 2
 
   md = md.gsub(' -- ', ' &mdash; ')
 
-  html = Redcarpet.new(md, :hard_wrap, :autolink).to_html
+  html = Redcarpet.new(md, :hard_wrap, :autolink, :fenced_code, :tables).to_html
 
   template = ERB.new File.new("md2html.erb").read, nil, "%"
   template.result(binding)
