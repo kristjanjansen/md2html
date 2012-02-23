@@ -7,7 +7,7 @@ if ARGV.length == 2
 
   md = iFile.read.gsub( %r{img:[^\s<]+} ) do |img|
     if img[/(?:png|jpe?g|gif)$/]  
-      "<img src='images/#{img.slice(4..-1)}' />"
+      "<img src='img/#{img.slice(4..-1)}' />"
     else
       "#{img}"
     end
