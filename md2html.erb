@@ -26,10 +26,16 @@ h1 + p {
   page-break-after:always;
 }
 h2, h3, h4, h5 {
-  margin: 1.5em 0 0 0;
+  margin: 1.5em 0 0.5em 0;
 }
-h5 {
-  font-size: 18px;
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+  border-top: 6px solid #ccc;
+  margin-top: 3em;
+  padding-top: .5em;
 }
 a, a:link, a:active, a:hover, a:visited {
   color: black;
@@ -44,6 +50,13 @@ pre {
   background: #ddd !important;
   width: 970px;
   overflow: auto;
+}
+img {
+  margin-top: 1.5em;
+}
+img + br + em {
+  color: #888;
+  font-style: normal;
 }
     </style>
   </head>
