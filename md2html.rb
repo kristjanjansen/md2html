@@ -1,7 +1,7 @@
 require 'redcarpet'
 require 'erb'
 
-if ARGV.length == 2
+if ARGV.length >= 2
 
   iFile = File.new(ARGV[0], "rb") 
 
@@ -22,7 +22,7 @@ if ARGV.length == 2
   html.gsub!(%r[<img\b.*?>]i) {|m| m.gsub('\_' , '_') }
   html.gsub!(/<code>.*?<\/code>/m) {|m| m.gsub('\_' , '_') }
 
-  template = ERB.new File.new("md2html.erb").read, nil, "%"
+  template = ERB.new File.new(ARGV[2] == nil ? "md2html.erb" : ARGV[2]).read, nil, "%"
   template.result(binding)
 
   oFile = File.new(ARGV[1], "w")
