@@ -24,7 +24,7 @@ md2html utility converts [Markdown](http://daringfireball.net/projects/markdown/
 gem install redcarpet
 git clone https://github.com/kristjanjansen/md2html.git
 cd md2html
-ruby md2html README.md README.html
+ruby md2html README.md README.html (optional.erb)
 ```
 
 ## Thanks 
