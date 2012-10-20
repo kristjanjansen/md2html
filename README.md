@@ -29,4 +29,6 @@ ruby md2html README.md README.html (optional.erb)
 
 ## Thanks 
 
-Nando Vieira and his awesome https://github.com/fnando/kitabu for inspiration
+Nando Vieira and his awesome https://github.com/fnando/kitabu_for_aaa for inspiration
+
+"Something nice" -- some'ng good! 

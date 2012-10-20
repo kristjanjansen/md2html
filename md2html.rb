@@ -13,10 +13,9 @@ if ARGV.length >= 2
     end
   end
 
-  md.gsub!(' -- ', ' &mdash; ')
   md.gsub!('_', '\_')
   
-  html = Redcarpet.new(md, :hard_wrap, :autolink, :fenced_code, :tables).to_html
+  html = Redcarpet.new(md, :hard_wrap, :autolink, :fenced_code, :tables, :smart).to_html
 
   html.gsub!(%r[<a\b.*?</a>]i) {|m| m.gsub('\_' , '_') }
   html.gsub!(%r[<img\b.*?>]i) {|m| m.gsub('\_' , '_') }
